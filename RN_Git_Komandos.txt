@@ -1,0 +1,38 @@
+$ git config --global user.name "<vardas>"
+$ git config --global user.email "<pastas>"
+
+$ git init
+$ git add <failas arba direktorija su failais>
+
+$ git status
+
+$ git commit -m "<trumpas komentaras>"
+// Be -m ilgesnis aprasymas
+
+$ git log
+// -<skaicius>; --oneline; --graph;
+
+$ git diff
+$ git diff --staged
+
+$ git diff HEAD~<skaicius> <failas>
+$ git show HEAD~<skaicius> <failas>
+
+$ git checkout <adresas> <failas>
+$ git checkout <adresas>
+//detacked HEAD
+
+$ git revert <commit ID>
+
+$ nano .gitignore
+$ git status --ignored
+
+$ git push origin master
+$ git pull origin master
+
+$ git remote
+// -v; add; remove; set-url; rename
+
+$ git fetch origin master
+$ git diff main origin/main
+$ git clone
