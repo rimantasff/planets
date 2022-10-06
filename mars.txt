@@ -1,6 +1,3 @@
 Cold and dry, but everything is my favorite color.
-<<<<<<< HEAD
 The two moons may be a problem for Wolfman
-abc
-=======
->>>>>>> parent of 33f5630 (Antras)
+
